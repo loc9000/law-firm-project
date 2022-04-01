@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-image:url(/images/nza_background.jpg);
+}
+
+.container{
+    background-color: white;
+    /* background-image: url(/images/nza_background.jpg); */
+}
+
+.btn{
+    background-color: darkgray;
+    border: none;
+    margin-right: 20px;
+}
+
+.logo{
+    padding: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* BEGIN NAV BAR STYLING */
+nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.nav a{
+    color:black;
+}
+
+nav a:hover{
+    color:darkgray;
+}
+
+/* END NAV BAR STYLING */
+
+/* BEGIN FOOTER STYLING */  
+
+hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+footer ul{
+    font-size: small;
+}
+
+/* END FOOTER STYLING */
