@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    background-image:url(/images/nza_background.jpg);
+    background-image:url(/images/nza_background.jpg); 
+    object-fit: fill;
 }
 
 .container{
     background-color: white;
-    /* background-image: url(/images/nza_background.jpg); */
 }
 
 .btn{
@@ -36,7 +36,41 @@ nav a:hover{
 
 /* END NAV BAR STYLING */
 
+/* BEGIN SIDEBAR STYLING */
+
+.hero-image{
+    object-fit: cover;
+}
+
+.sidebar{
+    background-image:url(/images/nav_side_sub.jpg);
+    color: white;
+}
+
+.sidebar hr{
+    background-color: white;
+}
+
+.sidebar ol{
+    list-style: none;
+}
+
+/* END SIDEBAR STYLING */
+
+.content img{
+    padding: 25px 0px;
+}
+
+.container-other-links{
+    background-image: url(/images/other_links_background.jpg);
+}
+
 /* BEGIN FOOTER STYLING */  
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
 
 hr{
     height: 2px;
@@ -46,6 +80,7 @@ hr{
 
 footer ul{
     font-size: small;
+    padding-bottom: 20px;
 }
 
 /* END FOOTER STYLING */
