@@ -7,6 +7,9 @@ body{
 .container{
     background-color: white;
 }
+.container-fluid{
+    padding-top: 20px;
+}
 
 .btn{
     background-color: darkgray;
@@ -36,15 +39,28 @@ nav a:hover{
 
 /* END NAV BAR STYLING */
 
+
+.flexbox-container{
+    display: flex;
+    padding-top: 25px;
+}
+
 /* BEGIN SIDEBAR STYLING */
 
-.hero-image{
-    object-fit: cover;
+.sidebar-text{
+    padding: 25px;
+    font-weight: 200;
+}
+
+.sidebar ul{
+    padding-top: 20px;
+
 }
 
 .sidebar{
-    background-image:url(/images/nav_side_sub.jpg);
+    background-image:url(/images/nav_side.jpg);
     color: white;
+    font-weight: 200;
 }
 
 .sidebar hr{
@@ -53,6 +69,10 @@ nav a:hover{
 
 .sidebar ol{
     list-style: none;
+}
+
+.container-other-links{
+    padding-top: 20px;
 }
 
 /* END SIDEBAR STYLING */
